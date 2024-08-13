@@ -1,0 +1,30 @@
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+}
+
+#navbarNavDropdown {
+    justify-content: end;
+}
+
+.navbar .container-fluid{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer .bgcolor
+{
+    background-color: burlywood !important;
+}
+
+footer .bgcolor .container-fluid {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 280px;
+}
+
+footer .bgcolor .container-fluid #navbarNavDropdown {
+    justify-content: flex-start;
+}
